@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run system verification
+python verify_system.py
+
+# If verification fails, prevent commit
+if [ $? -ne 0 ]; then
+    echo "❌ System verification failed. Please fix issues before committing."
+    exit 1
+fi
