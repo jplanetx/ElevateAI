@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ElevateAI Documentation
+    url: https://github.com/YOUR-USERNAME/ElevateAI/wiki
+    about: Check our documentation for answers to common questions
+  - name: Feature Discussion
+    url: https://github.com/YOUR-USERNAME/ElevateAI/discussions
+    about: Discuss ideas and features with the community
