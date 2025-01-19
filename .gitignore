@@ -28,9 +28,35 @@ __pycache__/
 *.py[cod]
 *$py.class
 venv/
+env/
+*.pyc
+
+# Virtual Environment
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # IDE
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+debug.log
+*.log
+
+# Local development
+*.sqlite3
+.env.development
+.env.test
+.env.production
