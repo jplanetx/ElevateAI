@@ -1,0 +1,20 @@
+bug:
+  - '(bug|fix|error|crash|issue)'
+enhancement:
+  - '(enhancement|feature|improvement|upgrade)'
+notion-integration:
+  - '(notion|database|sync|api)'
+energy-system:
+  - '(energy|spoon|capacity|level)'
+documentation:
+  - '(doc|docs|documentation|readme|wiki)'
+ui:
+  - '(ui|ux|interface|design|style|css)'
+backend:
+  - '(server|api|database|python|express)'
+frontend:
+  - '(react|component|tsx|jsx|vite)'
+critical:
+  - '(urgent|critical|emergency|asap)'
+good first issue:
+  - '(beginner|starter|easy|good first issue)'

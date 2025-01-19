@@ -1,0 +1,27 @@
+groups:
+  # You can add team members here once you have them
+  core:
+    - YOUR_GITHUB_USERNAME
+  
+  frontend:
+    - YOUR_GITHUB_USERNAME  # For frontend related changes
+
+  backend:
+    - YOUR_GITHUB_USERNAME  # For backend related changes
+
+files:
+  # Frontend files
+  'src/**/*.{ts,tsx,js,jsx}':
+    - frontend
+
+  # Backend files
+  'server/**/*':
+    - backend
+
+  # Documentation
+  '**/*.md':
+    - core
+
+  # Configuration files
+  '**/*.{json,yml,yaml}':
+    - core
